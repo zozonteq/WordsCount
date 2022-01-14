@@ -15,4 +15,5 @@ while True:
                     else:
                         words_list[i] +=1
         sorted_words = sorted(words_list.items(), key=lambda x:x[1])
+        #辞書ソート
         print(sorted_words)
